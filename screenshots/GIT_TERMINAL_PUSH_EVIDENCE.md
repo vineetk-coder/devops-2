@@ -215,6 +215,28 @@ The entire repository workflow is verified below via Windows PowerShell commands
 
 ---
 
+### Step 11: Repository Documentation & Push Scripts
+
+- **Directory**: Repository Root
+- **Files Staged**: `README.md`, `push_to_github.bat`, `push_to_github.sh`, `screenshots/`
+- **Git Stage Command**: `git add README.md push_to_github.bat push_to_github.sh screenshots/`
+- **Git Commit Command**: `git commit -m "docs: comprehensive repository overview, exercise execution gallery, and verification guide"`
+- **Git Push Command**: `git push origin main`
+- **Actual Commit Hash**: `841cb25`
+
+---
+
+### Step 12: Comprehensive DevOps Exercise & Terminal Evidence
+
+- **Directory**: `screenshots/` and `README.md`
+- **Files Staged**: `screenshots/exercise-01/` through `screenshots/exercise-10/`, `screenshots/git-push/`, `screenshots/GIT_TERMINAL_PUSH_EVIDENCE.md`, `README.md`
+- **Git Stage Command**: `git add .`
+- **Git Commit Command**: `git commit -m "Add complete DevOps exercise evidence"`
+- **Git Push Command**: `git push origin main`
+- **Actual Commit Hash**: `93b8bd8`
+
+---
+
 ## 3. Local Verification Commands
 
 To independently verify the terminal-pushed state on any machine, clone the repository and run:
@@ -226,3 +248,4 @@ git status
 git log --oneline --decorate -15
 git remote -v
 ```
+
